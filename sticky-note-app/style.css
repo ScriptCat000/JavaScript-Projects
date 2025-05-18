@@ -62,17 +62,21 @@ ul li {
     align-items: center;
     list-style: none;
     background: white;
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
+    position: relative;
 }
 ul li p {
     color: #444;
     font-size: 14px;
-    margin-right: 10px;
+    margin-right: 60px;
 }
 ul li span {
-    background: #efefef;
-    border-radius: 50%;
-    border: 2px solid #d4d4d4;
-    padding: 10px;
+    background: #ff003f;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: 600;
+    cursor: pointer;
 }
