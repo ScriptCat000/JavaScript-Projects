@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient( 135deg, #FBC2EB 10%, #C2E9FB 100%);
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+}
+.underline {
+    width: 100px;
+    height: 4px;
+    background: #B775B3;
+}
+.container {
+    width: 100%;
+    max-width: 700px;
+    background: #ffffff3f;
+    border: 3px solid white;
+    border-radius: 12px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .img-container {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.container .img-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.container .author {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333333;
+}
+.container .job {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #B775B3;
+    margin-bottom: 24px;
+}
+.container .info {
+    width: 470px;
+    height: 110px;
+    text-align: center;
+    color: #666666;
+    /* background: red; */
+}
+.btns-container {
+    margin: 20px 0;
+    width: 150px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btns-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: white;
+    transition: all.2 ease-in;
+}
+.btns-container button:hover{
+    background: #efefef;
+}
